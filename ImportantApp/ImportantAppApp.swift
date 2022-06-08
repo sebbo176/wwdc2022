@@ -11,7 +11,12 @@ import SwiftUI
 struct ImportantAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GridWithAnimatedSFSymbolPlay()
         }
+
+//        MenuBarExtra("Bulletin Board", systemImage: "quote.bubble") {
+//            ContentView()
+//        }
+//        .menuBarExtraStyle(.window)
     }
 }

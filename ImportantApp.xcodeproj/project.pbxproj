@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D02B79CD2850A491006F6780 /* ImportantAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B79CC2850A491006F6780 /* ImportantAppApp.swift */; };
-		D02B79CF2850A491006F6780 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B79CE2850A491006F6780 /* ContentView.swift */; };
+		D02B79CF2850A491006F6780 /* GridWithAnimatedSFSymbolPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B79CE2850A491006F6780 /* GridWithAnimatedSFSymbolPlay.swift */; };
 		D02B79D12850A492006F6780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02B79D02850A492006F6780 /* Assets.xcassets */; };
 		D02B79D52850A492006F6780 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02B79D42850A492006F6780 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		D02B79C92850A491006F6780 /* ImportantApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImportantApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02B79CC2850A491006F6780 /* ImportantAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportantAppApp.swift; sourceTree = "<group>"; };
-		D02B79CE2850A491006F6780 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D02B79CE2850A491006F6780 /* GridWithAnimatedSFSymbolPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridWithAnimatedSFSymbolPlay.swift; sourceTree = "<group>"; };
 		D02B79D02850A492006F6780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02B79D22850A492006F6780 /* ImportantApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImportantApp.entitlements; sourceTree = "<group>"; };
 		D02B79D42850A492006F6780 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				D02B79CC2850A491006F6780 /* ImportantAppApp.swift */,
-				D02B79CE2850A491006F6780 /* ContentView.swift */,
+				D02B79CE2850A491006F6780 /* GridWithAnimatedSFSymbolPlay.swift */,
 				D02B79D02850A492006F6780 /* Assets.xcassets */,
 				D02B79D22850A492006F6780 /* ImportantApp.entitlements */,
 				D02B79D32850A492006F6780 /* Preview Content */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02B79CF2850A491006F6780 /* ContentView.swift in Sources */,
+				D02B79CF2850A491006F6780 /* GridWithAnimatedSFSymbolPlay.swift in Sources */,
 				D02B79CD2850A491006F6780 /* ImportantAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +276,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = important.ImportantApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -308,7 +308,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = important.ImportantApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

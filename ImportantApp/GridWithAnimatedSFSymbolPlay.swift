@@ -107,7 +107,7 @@ struct SymbolGrid: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct GridWithAnimatedSFSymbolPlay_Previews: PreviewProvider {
     static var previews: some View {
         GridWithAnimatedSFSymbolPlay()
     }
