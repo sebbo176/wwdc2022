@@ -11,6 +11,7 @@
 		D02B79CF2850A491006F6780 /* GridWithAnimatedSFSymbolPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B79CE2850A491006F6780 /* GridWithAnimatedSFSymbolPlay.swift */; };
 		D02B79D12850A492006F6780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02B79D02850A492006F6780 /* Assets.xcassets */; };
 		D02B79D52850A492006F6780 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02B79D42850A492006F6780 /* Preview Assets.xcassets */; };
+		D0AC03A8285209F500503F24 /* LayoutPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC03A7285209F500503F24 /* LayoutPlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		D02B79D02850A492006F6780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02B79D22850A492006F6780 /* ImportantApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImportantApp.entitlements; sourceTree = "<group>"; };
 		D02B79D42850A492006F6780 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0AC03A7285209F500503F24 /* LayoutPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +54,11 @@
 		D02B79CB2850A491006F6780 /* ImportantApp */ = {
 			isa = PBXGroup;
 			children = (
-				D02B79CC2850A491006F6780 /* ImportantAppApp.swift */,
-				D02B79CE2850A491006F6780 /* GridWithAnimatedSFSymbolPlay.swift */,
-				D02B79D02850A492006F6780 /* Assets.xcassets */,
 				D02B79D22850A492006F6780 /* ImportantApp.entitlements */,
+				D02B79CE2850A491006F6780 /* GridWithAnimatedSFSymbolPlay.swift */,
+				D02B79CC2850A491006F6780 /* ImportantAppApp.swift */,
+				D0AC03A7285209F500503F24 /* LayoutPlay.swift */,
+				D02B79D02850A492006F6780 /* Assets.xcassets */,
 				D02B79D32850A492006F6780 /* Preview Content */,
 			);
 			path = ImportantApp;
@@ -141,6 +144,7 @@
 			files = (
 				D02B79CF2850A491006F6780 /* GridWithAnimatedSFSymbolPlay.swift in Sources */,
 				D02B79CD2850A491006F6780 /* ImportantAppApp.swift in Sources */,
+				D0AC03A8285209F500503F24 /* LayoutPlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
